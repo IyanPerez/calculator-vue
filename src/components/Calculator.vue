@@ -1,4 +1,19 @@
+<!-- header side -->
 <template>
+  <!-- header side -->
+  <header>
+    
+    
+    <div class="p-5 text-center bg-light">
+      <h1 class="mb-3">Calculator</h1>
+     
+      
+      
+    </div>
+    
+  </header>
+
+
     <!-- Happy Coding -->
     <div class= "p-3" style= "max-width: 400px; margin: 50px auto; background: #234">
       
@@ -18,6 +33,15 @@
         </div>
       </div>
     </div>
+    <!-- footer side  -->
+    <MDBFooter :text="['center', 'lg-start']">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: white">
+      © 2022 Copyright: Iyan  Y omid
+      
+    </div>
+    <!-- Copyright -->
+  </MDBFooter>
   </template>
   
   <script>
@@ -78,14 +102,15 @@
   
   <style scoped>
     .bg-vue-dark {
-      background: #31475e;
+      background: #51315e;
     }
     .hover-class:hover {
       cursor: pointer;
-      background: #3D5875;
+      background: #3d7175;
     }
     .bg-vue-green {
-      background: #3fb984;
+      background: #0b5535;
     }
+    
   </style>
   
