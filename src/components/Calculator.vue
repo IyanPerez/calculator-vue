@@ -29,10 +29,19 @@
             :class= "{'bg-vue-green': ['C','*','/','-','+','%','='].includes(n)}"
             @click="action(n)">
             {{ n }}
+           
           </div>
         </div>
+       
       </div>
+       <!-- button for chaning money -->
+      <input label="Eur" type="number" />
+      <h6 style="background-color: white">rue </h6>
+      <input label="Number input" type="number" />
+      <input label="Number input" type="number" />
+      <input label="Number input" type="number" />
     </div>
+    
     <!-- footer side  -->
     <MDBFooter :text="['center', 'lg-start']">
     <!-- Copyright -->
@@ -42,6 +51,7 @@
     </div>
     <!-- Copyright -->
   </MDBFooter>
+  
   </template>
   
   <script>
